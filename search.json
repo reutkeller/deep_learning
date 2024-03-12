@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "deep_learning",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "deep_learning"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "deep_learning",
+    "section": "Install",
+    "text": "Install\npip install deep_learning",
+    "crumbs": [
+      "deep_learning"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "deep_learning",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "deep_learning"
+    ]
+  },
+  {
+    "objectID": "cnn_excercise.html",
+    "href": "cnn_excercise.html",
+    "title": "CNN Excercise",
+    "section": "",
+    "text": "Load the data\n\n# Load BigEarthNet dataset\n\n# Load a portion of the BigEarthNet dataset\nstart_percentage = 0.0  # Start percentage of the dataset\nend_percentage = 0.2  # End percentage of the dataset\nnum_examples = None  # Number of examples to load, None to load all examples in the slice\n\n# # Define the slice\n# slice_obj = slice(int(start_percentage * 590326), int(end_percentage * 590326))\n\n# Load the sliced dataset\ndataset, info = tfds.load('bigearthnet', split=f'train[:15%]', with_info=True)\n\n# dataset, info = tfds.load('bigearthnet', split='train', with_info=True)",
+    "crumbs": [
+      "CNN Excercise"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
