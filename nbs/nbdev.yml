@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "deep_learning"
+  site-url: "https://reutkeller.github.io/deep_learning"
+  description: "repo deep learning"
+  repo-branch: main
+  repo-url: "https://github.com/reutkeller/deep_learning"
